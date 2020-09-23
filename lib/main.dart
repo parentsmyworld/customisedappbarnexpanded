@@ -77,7 +77,15 @@ class MyApp extends StatelessWidget {
 //                        padding: EdgeInsets.all(30),
                             color: Colors.greenAccent,
                             child: Center(child: Text("!"))),
-                      )
+                      ),
+                      Expanded(
+                        flex: 2,
+                        child: Container(
+//                        padding: EdgeInsets.all(30),
+                            color: Colors.purpleAccent,
+                            child: Center(child: Text("WELCOME"))),
+                      ),
+
                     ],
                   ),
 
